@@ -1,6 +1,43 @@
-# Medical Chatbot
+# AI-Powered Medical Chatbot
 
-# How to run?
+An intelligent medical chatbot that provides context-aware medical responses using **LangChain**, **OpenAI GPT**, and **Pinecone** for semantic search. Built with **Flask** and deployable on **AWS** with CI/CD pipelines via GitHub Actions.
+
+---
+
+## 🧠 Overview
+
+This project implements an AI-powered medical chatbot that answers user health queries by retrieving relevant information from indexed medical data and generating natural language responses using large language models (LLMs). It can be run locally or deployed to AWS with automated pipelines.
+
+---
+
+## 🚀 Features
+
+- Conversational medical chatbot using modern NLP techniques  
+- Semantic knowledge retrieval using vector embeddings  
+- Flask-based REST API for real-time interaction  
+- Easy deployment via Docker and AWS (ECR, EC2)  
+- CI/CD integration with GitHub Actions  
+
+---
+
+## Snapshot
+
+<img width="963" height="332" alt="Screenshot 2026-02-08 003046" src="https://github.com/user-attachments/assets/6a685607-9335-41c5-ae73-9a38e5431bb2" />
+
+---
+
+### Techstack Used:
+
+- Python
+- LangChain
+- Flask
+- GPT
+- Pinecone
+- AWS
+
+---
+
+## How to run?
 ### STEPS:
 
 Clone the repository
@@ -48,16 +85,7 @@ Now,
 open up localhost:
 ```
 
-
-### Techstack Used:
-
-- Python
-- LangChain
-- Flask
-- GPT
-- Pinecone
-
-
+---
 
 # AWS-CICD-Deployment-with-Github-Actions
 
@@ -116,11 +144,11 @@ open up localhost:
 
 	newgrp docker
 	
-# 6. Configure EC2 as self-hosted runner:
+## 6. Configure EC2 as self-hosted runner:
     setting>actions>runner>new self hosted runner> choose os> then run command one by one
 
 
-# 7. Setup github secrets:
+## 7. Setup github secrets:
 
    - AWS_ACCESS_KEY_ID
    - AWS_SECRET_ACCESS_KEY
