@@ -6,7 +6,7 @@
 Clone the repository
 
 ```bash
-git clone https://github.com/sk-moin/Medical-Chatbot
+git clone https://github.com/sk-moin/AI-Powered-Medical-Chatbot
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
